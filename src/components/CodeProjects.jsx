@@ -19,7 +19,7 @@ const CodeProjects = () => {
                             width="20"
                             height="20"
                         />
-                        <div className="mt-3 text-xl">Coming Soon</div>
+                        <div className="mt-3 text-xl">Vending Machine</div>
                     </center>
                     <div className="flex flex-row pt-8 lg:text-base text-sm">
                         <div className="w-full lg:w-1/2 py-2 ProjDesc">
