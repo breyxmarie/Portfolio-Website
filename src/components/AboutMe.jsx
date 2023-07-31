@@ -41,11 +41,8 @@ const AboutMe = () => {
                             focus and energizes my mind. Whether it's a robust
                             espresso or a perfectly brewed pour-over, the aroma
                             and taste of coffee inspire me and enhance my
-                            productivity.
+                            productivity..
                             <br />
-                            <br />
-                            When I'm not immersed in lines of code or savoring a
-                            cup of java
                         </p>
                     </div>
                 </div>
