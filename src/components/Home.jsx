@@ -56,7 +56,7 @@ const Home = () => {
                         <div className="sm:basis-1/2 pt-10 sm:pt-40 ">
                             <center>
                                 <img
-                                    src="public/images/random.png"
+                                    src="images/random.png"
                                     width="70%"
                                     height="50%"
                                 />
