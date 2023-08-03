@@ -5,11 +5,11 @@ import Particle from '../Particle'
 
 const Home = () => {
     return (
-        <div className="max-w-7xl h-screen mx-auto py-0 sm:px-6 lg:px-8 font-raleway">
+        <div className="max-w-7xl h-screen mx-auto py-0 sm:px-6 lg:px-8">
             {/* <!-- Replace with your content --> */}
             <div className="px-4 py-0 rounded-lg sm:px-0">
                 <div className="">
-                    <div className="flex flex-col sm:flex-row h-screen text-white text-4xl font-mono">
+                    <div className="flex flex-col sm:flex-row h-screen text-white text-4xl font-raleway">
                         <Particle />
                         <div className="sm:basis-1/2 py-0 m-auto text-center sm:text-left">
                             <center>
