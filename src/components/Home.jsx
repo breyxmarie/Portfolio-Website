@@ -34,19 +34,19 @@ const Home = () => {
                                 <div className="flex justify-center">
                                     <img
                                         className="justify-center"
-                                        src="src/images/duck.png"
+                                        src="/images/duck.png"
                                         width="50"
                                         height="50"
                                     />
                                     <img
                                         className="justify-center mx-10"
-                                        src="src/images/duck.png"
+                                        src="/images/duck.png"
                                         width="50"
                                         height="50"
                                     />
                                     <img
                                         className="justify-center"
-                                        src="src/images/duck.png"
+                                        src="/images/duck.png"
                                         width="50"
                                         height="50"
                                     />
