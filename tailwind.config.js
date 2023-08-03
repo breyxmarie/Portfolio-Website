@@ -6,5 +6,12 @@ module.exports = {
   theme: {
     extend: {},
   },
+  theme: {
+    extend: {
+      fontFamily: {
+        'raleway':['Raleway']
+      },
+    },
+  },
   plugins: [],
 }
