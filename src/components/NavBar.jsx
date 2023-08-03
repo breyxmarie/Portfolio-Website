@@ -11,7 +11,7 @@ function Nav() {
                         <div className="flex-shrink-0">
                             <img
                                 className="h-8 w-8"
-                                src="src/images/coffee.png"
+                                src="/images/coffee.png"
                                 alt="Workflow"
                             />
                         </div>

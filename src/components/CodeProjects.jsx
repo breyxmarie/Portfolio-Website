@@ -14,7 +14,7 @@ const CodeProjects = () => {
                 <div className="bg-[#041A40] px-10 pb-10 w-full rounded-3xl lg:w-1/2 lg:mr-5">
                     <center>
                         <img
-                            src="src/images/pin.png"
+                            src="/images/pin.png"
                             className="mx-10 pt-1"
                             width="20"
                             height="20"
@@ -47,7 +47,7 @@ const CodeProjects = () => {
                         <div className="w-full lg:w-1/2 flex justify-center">
                             <img
                                 className="w-full"
-                                src="src/images/coffee Spongebob.jpg"
+                                src="/images/coffee Spongebob.jpg"
                                 width="50%"
                                 height="30%"
                             />
@@ -58,7 +58,7 @@ const CodeProjects = () => {
                 <div className="bg-[#041A40] ml-0 lg:ml-5 mt-5 lg:mt-0 px-10 pb-10 w-full lg:w-1/2 rounded-3xl">
                     <center>
                         <img
-                            src="src/images/pin.png"
+                            src="/images/pin.png"
                             className="mx-10 pt-1"
                             width="20"
                             height="20"
@@ -91,7 +91,7 @@ const CodeProjects = () => {
                         <div className="w-full lg:w-1/2 flex justify-center">
                             <img
                                 className="w-full"
-                                src="src/images/coffee Spongebob.jpg"
+                                src="/images/coffee Spongebob.jpg"
                                 width="50%"
                                 height="30%"
                             />
@@ -104,7 +104,7 @@ const CodeProjects = () => {
                 <div className="bg-[#041A40] px-10 pb-10 w-full rounded-3xl lg:w-1/2 lg:mr-5">
                     <center>
                         <img
-                            src="src/images/pin.png"
+                            src="/images/pin.png"
                             className="mx-10 pt-1"
                             width="20"
                             height="20"
@@ -121,7 +121,7 @@ const CodeProjects = () => {
                         <div className="w-full lg:w-1/2 flex justify-center">
                             <img
                                 className="w-full"
-                                src="src/images/coffee Spongebob.jpg"
+                                src="/images/coffee Spongebob.jpg"
                                 width="50%"
                                 height="30%"
                             />
@@ -132,7 +132,7 @@ const CodeProjects = () => {
                 <div className="bg-[#041A40] ml-0 lg:ml-5 mt-5 lg:mt-0 px-10 pb-10 w-full lg:w-1/2 rounded-3xl">
                     <center>
                         <img
-                            src="src/images/pin.png"
+                            src="/images/pin.png"
                             className="mx-10 pt-1"
                             width="20"
                             height="20"
@@ -149,7 +149,7 @@ const CodeProjects = () => {
                         <div className="w-full lg:w-1/2 flex justify-center">
                             <img
                                 className="w-full"
-                                src="src/images/coffee Spongebob.jpg"
+                                src="/images/coffee Spongebob.jpg"
                                 width="50%"
                                 height="30%"
                             />

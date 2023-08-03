@@ -7,7 +7,7 @@ const Loading = () => {
             <center>
                 <img
                     className="justify-center"
-                    src="src/images/Cofeeee.gif"
+                    src="/images/Cofeeee.gif"
                     width="200"
                     height="200"
                 />

@@ -12,7 +12,7 @@ const AboutMe = () => {
                 <div className="flex flex-wrap md:flex-nowrap">
                     <div className="w-full md:w-1/2 m-8 md:p-20 md:mt-8">
                         <img
-                            src="src/images/formal spongebob.jpg"
+                            src="/images/formal spongebob.jpg"
                             className="w-70% h-60%"
                             alt="Formal Spongebob"
                         />
