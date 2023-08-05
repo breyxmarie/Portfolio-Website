@@ -47,7 +47,7 @@ const CodeProjects = () => {
                         <div className="w-full lg:w-1/2 flex justify-center">
                             <img
                                 className="w-full"
-                                src="/images/coffee Spongebob.jpg"
+                                src="/images/VendingMachine.png"
                                 width="50%"
                                 height="30%"
                             />
@@ -63,7 +63,7 @@ const CodeProjects = () => {
                             width="20"
                             height="20"
                         />
-                        <div className="mt-3 text-xl">Coming Soon</div>
+                        <div className="mt-3 text-xl">MP3 Player</div>
                     </center>
                     <div className="flex flex-row pt-8 lg:text-base text-sm">
                         <div className="w-full lg:w-1/2 py-2 ProjDesc">
@@ -91,7 +91,7 @@ const CodeProjects = () => {
                         <div className="w-full lg:w-1/2 flex justify-center">
                             <img
                                 className="w-full"
-                                src="/images/coffee Spongebob.jpg"
+                                src="/images/MP3.png"
                                 width="50%"
                                 height="30%"
                             />
@@ -109,7 +109,7 @@ const CodeProjects = () => {
                             width="20"
                             height="20"
                         />
-                        <div className="mt-3 text-xl">Coming Soon</div>
+                        <div className="mt-3 text-xl">Takeout Dash</div>
                     </center>
                     <div className="flex flex-row pt-8 lg:text-base text-sm">
                         <div className="w-full lg:w-1/2 py-2 ProjDesc">
@@ -117,11 +117,26 @@ const CodeProjects = () => {
                             <br />
                             <br />
                             Coming Soon
+                            <br />
+                            <br />
+                            <br />
+                            <div className="flex">
+                                <a href="">
+                                    <button class="bg-red-700 hover:bg-red-900 text-white font-bold py-1 mx-2 px-2 rounded">
+                                        View Demo
+                                    </button>
+                                </a>
+                                <a href="">
+                                    <button class="bg-black hover:bg-gray-700 text-white font-bold py-1 mx-0 px-2 rounded">
+                                        View Codes
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                         <div className="w-full lg:w-1/2 flex justify-center">
                             <img
                                 className="w-full"
-                                src="/images/coffee Spongebob.jpg"
+                                src="/images/TakeOutDash.png"
                                 width="50%"
                                 height="30%"
                             />

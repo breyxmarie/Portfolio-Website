@@ -1,21 +1,78 @@
 import { useState, useEffect } from 'react'
+import SpotifyLogo from './SpotifyLogo'
+import PlayingAnimation from './PlayingAnimation'
+import getNowPlayingItem from './SpotifyAPI'
 
-const AboutMe = () => {
+const AboutMe = (props) => {
+    const [loading, setLoading] = useState(true)
+    const [result, setResult] = useState({})
+    useEffect(() => {
+        Promise.all([
+            getNowPlayingItem(
+                props.client_id,
+                props.client_secret,
+                props.refresh_token
+            ),
+        ]).then((results) => {
+            setResult(results[0])
+            setLoading(false)
+        })
+    })
+
     return (
         <div
             id="about"
-            className="min-h-screen pt-20 bg-white bg-opacity-10 text-white font-mono "
+            className="min-h-screen pt-20 bg-white bg-opacity-10 text-white font-raleway"
         >
             <div classname="border-4 border-dashed border-gray-200 rounded-lg">
                 <div className="px-8 text-6xl text-center">About Me</div>
 
                 <div className="flex flex-wrap md:flex-nowrap">
                     <div className="w-full md:w-1/2 m-8 md:p-20 md:mt-8">
-                        <img
-                            src="/images/formal spongebob.jpg"
-                            className="w-70% h-60%"
-                            alt="Formal Spongebob"
-                        />
+                        <div className="w-60">
+                            <img
+                                src="/images/formal spongebob.jpg"
+                                className="w-20% h-10%"
+                                alt="Formal Spongebob"
+                            />
+                            Brey
+                            <br />
+                            breyxmarie
+                            <hr />
+                            <div>
+                                {loading && <p>Loading...</p>}
+                                {!loading &&
+                                    !isPlaying(
+                                        <div>
+                                            <SpotifyLogo />
+                                            <span>Currently offline"</span>
+                                        </div>
+                                    )}
+                                {!loading &&
+                                    isPlaying(
+                                        <div>
+                                            <div>
+                                                <SpotifyLogo />
+                                                <span>Now playing</span>
+                                            </div>
+                                            <div>
+                                                <img
+                                                    src={result.albumImageUrl}
+                                                    alt={`${result.title} album art`}
+                                                />
+                                                <PlayingAnimation />
+                                                <a
+                                                    href={result.songUrl}
+                                                    target="_blank"
+                                                >
+                                                    {result.title}
+                                                </a>
+                                                <p>{result.artist}</p>
+                                            </div>
+                                        </div>
+                                    )}
+                            </div>
+                        </div>
                     </div>
 
                     <div className="w-full md:w-1/2 m-8 md:pt-20">
