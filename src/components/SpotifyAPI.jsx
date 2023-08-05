@@ -11,9 +11,8 @@ const refresh_token =
     'MjJiMDcxODI1YWJlNDhiZDgwZDRjOTIzNzg3NmMwNzM6ZDU0MGExNTljOTZlNDg2Mzg0YWY5N2E2MzVjMTI1ZDYK'
 
 const getAccessToken = async () => {
-    const basic = Buffer.from(`${client_id}:${client_secret}`).toString(
-        'base64'
-    )
+    // const basic = Buffer.from(`${client_id}:${client_secret}`).toString(
+    const basic = `${client_id}:${client_secret}`.toString('base64')
 
     const response = await fetch(TOKEN_ENDPOINT, {
         method: 'POST',
