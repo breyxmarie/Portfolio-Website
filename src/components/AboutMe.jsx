@@ -27,70 +27,93 @@ const AboutMe = (props) => {
             <div classname="border-4 border-dashed border-gray-200 rounded-lg">
                 <div className="px-8 text-6xl text-center">About Me</div>
 
-                <div className="flex flex-wrap md:flex-nowrap">
-                    <div className="w-full md:w-1/2 m-8 md:p-20 md:mt-8">
-                        <div className="w-60">
-                            <img
-                                src="/images/formal spongebob.jpg"
-                                className="w-20% h-10%"
-                                alt="Formal Spongebob"
-                            />
-                            Brey
+                <div className="flex flex-wrap md:flex-nowrap rounded-lg">
+                    <div className="w-full md:w-1/2 m-8 md:p-20 md:mt-0">
+                        <div className="w-120 bg-[#041A40]">
+                            <div class="relative">
+                                <img
+                                    src="/images/formal spongebob.jpg"
+                                    className="w-full h-[250px]"
+                                    alt="Formal Spongebob"
+                                />
+                                <img
+                                    src="/images/2x2.jpg"
+                                    className="outline outline-[#041A40] ml-5 rounded-full absolute top-40 w-40 "
+                                    alt="Formal Spongebob"
+                                />
+                            </div>
                             <br />
-                            breyxmarie
-                            <hr />
-                            <div>
-                                {loading && <p>Loading...</p>}
-                                {!loading &&
-                                    !isPlaying(
-                                        <div>
-                                            <SpotifyLogo />
-                                            <span>Currently offline"</span>
-                                        </div>
-                                    )}
-                                {!loading &&
-                                    isPlaying(
-                                        <div>
+                            <br />
+                            <br />
+                            <div class="m-3 bg-[#193159] rounded-sm">
+                                <h1 class="ml-5">
+                                    {' '}
+                                    <b>Aubrey Marie Quiatchon</b>
+                                </h1>
+
+                                <h3 class="ml-5 text-sm">breyxmarie</h3>
+                                <hr />
+                                <h3 class="ml-5 text-sm">
+                                    "to live for the hope of it all"
+                                </h3>
+                                <div>
+                                    {loading && <p>Loading...</p>}
+                                    {!loading &&
+                                        !isPlaying(
                                             <div>
                                                 <SpotifyLogo />
-                                                <span>Now playing</span>
+                                                <span>Currently offline"</span>
                                             </div>
+                                        )}
+                                    {!loading &&
+                                        isPlaying(
                                             <div>
-                                                <img
-                                                    src={result.albumImageUrl}
-                                                    alt={`${result.title} album art`}
-                                                />
-                                                <PlayingAnimation />
-                                                <a
-                                                    href={result.songUrl}
-                                                    target="_blank"
-                                                >
-                                                    {result.title}
-                                                </a>
-                                                <p>{result.artist}</p>
+                                                <div>
+                                                    <SpotifyLogo />
+                                                    <span>Now playing</span>
+                                                </div>
+                                                <div>
+                                                    <img
+                                                        src={
+                                                            result.albumImageUrl
+                                                        }
+                                                        alt={`${result.title} album art`}
+                                                    />
+                                                    <PlayingAnimation />
+                                                    <a
+                                                        href={result.songUrl}
+                                                        target="_blank"
+                                                    >
+                                                        {result.title}
+                                                    </a>
+                                                    <p>{result.artist}</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                    )}
+                                        )}
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="w-full md:w-1/2 m-8 md:pt-20">
-                        <p>
-                            Hello, My Name is Aubrey Marie Quiatchon. As an
-                            aspiring developer, I thrive on turning ideas into
-                            functional and innovative software solutions. With a
-                            strong foundation in programming languages such as
-                            Java, C#, C++, Python and Javascript, I constantly
-                            seek to expand my knowledge and skills to stay at
-                            the forefront of technological advancements. Coding
-                            is not just a hobby for me; it's a way of expressing
-                            creativity and problem-solving. I enjoy tackling
-                            complex challenges and finding elegant solutions
-                            through clean, efficient code. The thrill of seeing
-                            my ideas come to life and the satisfaction of
-                            building something from scratch drive me to
-                            constantly improve my coding abilities.
+                    <div className="w-full md:w-1/2 mx-8 md:pt-20  p-5 rounded-lg">
+                        <p class="bg-[#041A40] p-5 rounded-md">
+                            Hello My name is Aubrey Marier Quiatchon.
+                            <br />
+                            <br />I am an aspiring developer hoping to
+                            specialize in developing software and mobile
+                            applications. I also aspire to have a career in data
+                            analytics. Throughout my years in university I was
+                            able to enhance my skills to develop a strong
+                            foundationn in different programming languages such
+                            as Java, C#, C++, Python and Javascript. Alongside
+                            to this I was able to develop a strong foundation
+                            with database managament to be specific using SQL to
+                            create multiple entries, process, transactions and
+                            triggeres in between tables of data in the database.
+                            Coding is more than just a hobby for me it's my way
+                            of expressing my creativity and problem solving
+                            through the use of different logics and techniques.
+                            <br />
                             <br />
                             In addition to coding, another essential ingredient
                             in my daily routine is coffee. It's not just a

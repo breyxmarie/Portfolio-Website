@@ -4,7 +4,7 @@ const Experience = () => {
     return (
         <div
             id="experience"
-            className="flex flex-col lg:flex-row mx-4 lg:mx-20 text-white font-mono pb-10"
+            className="flex flex-col lg:flex-row mx-4 lg:mx-20 text-white font-raleway pb-10"
         >
             <div className="basis-1/2 sm:ml-20 mt-10 sm:mt-30">
                 <h3 className="text-5xl">Education</h3>
@@ -21,7 +21,7 @@ const Experience = () => {
                     STI College Santa Rosa 2017 - 2019
                 </p>
                 <p className="sm:mt-2">
-                    Information and Communications Technology{' '}
+                    Information and Communications Technology (TVL Track){' '}
                 </p>
                 <p className="sm:mt-2">
                     Mobile Application and Web Development

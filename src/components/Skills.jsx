@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 const Skills = () => {
     return (
-        <div id="skill" className="h-screen text-white font-mono pt-20">
+        <div id="skill" className="h-screen text-white font-raleway pt-20">
             <div className="p-8 text-6xl">
                 <center>Skills</center>
             </div>
