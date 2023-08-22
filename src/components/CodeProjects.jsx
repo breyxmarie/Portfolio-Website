@@ -47,9 +47,9 @@ const CodeProjects = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/2 flex justify-center">
+                        <div className="w-full lg:w-1/2 flex justify-center pl-5">
                             <img
-                                className="w-full"
+                               className="w-full h-auto max-w-md"
                                 src="/images/VendingMachine.png"
                                 width="50%"
                                 height="30%"
@@ -94,7 +94,7 @@ const CodeProjects = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/2 flex justify-center">
+                        <div className="w-full lg:w-1/2 flex justify-center pl-5">
                             <img
                                 className="w-full"
                                 src="/images/MP3.png"
@@ -142,7 +142,7 @@ const CodeProjects = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/2 flex justify-center">
+                        <div className="w-full lg:w-1/2 flex justify-center pl-5">
                             <img
                                 className="w-full"
                                 src="/images/TakeOutDash.png"
@@ -189,7 +189,7 @@ const CodeProjects = () => {
                             </div>
                         </div>
 
-                        <div className="w-full lg:w-1/2 flex justify-center">
+                        <div className="w-full lg:w-1/2 flex justify-center pl-5">
                             <img
                                 className="w-full"
                                 src="/images/book-tracker.png"
@@ -237,7 +237,7 @@ const CodeProjects = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/2 flex justify-center">
+                        <div className="w-full lg:w-1/2 flex justify-center pl-5">
                             <img
                                 className="w-full"
                                 src="/images/dog-app.png"
@@ -281,7 +281,7 @@ const CodeProjects = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/2 flex justify-center">
+                        <div className="w-full lg:w-1/2 flex justify-center pl-5">
                             <img
                                 className="w-full"
                                 src="/images/formal spongebob.jpg"
