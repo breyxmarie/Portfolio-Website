@@ -49,12 +49,14 @@ const AboutMe = (props) => {
                                 <h1 class="ml-5">
                                     {' '}
                                     <b>Aubrey Marie Quiatchon</b>
+                                    
                                 </h1>
 
                                 <h3 class="ml-5 text-sm">breyxmarie</h3>
                                 <hr />
                                 <h3 class="ml-5 text-sm">
                                     "to live for the hope of it all"
+                                    
                                 </h3>
                                 <div>
                                     {loading && <p>Loading...</p>}
@@ -97,7 +99,7 @@ const AboutMe = (props) => {
 
                     <div className="w-full md:w-1/2 mx-8 md:pt-20  p-5 rounded-lg">
                         <p class="bg-[#041A40] p-5 rounded-md">
-                            Hello My name is Aubrey Marier Quiatchon.
+                            Hello My name is Aubrey Marie Quiatchon.
                             <br />
                             <br />I am an aspiring developer hoping to
                             specialize in developing software and mobile
