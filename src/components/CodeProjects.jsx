@@ -32,7 +32,10 @@ const CodeProjects = () => {
                             <br />
                             <br />
                             <div className="flex">
-                                <a href="">
+                                <a
+                                    href="https://youtu.be/aFEmG_NXvGw"
+                                    target="_blank"
+                                >
                                     <button class="bg-red-700 hover:bg-red-900 text-white font-bold py-1 mx-2 px-2 rounded">
                                         View Demo
                                     </button>
@@ -49,7 +52,7 @@ const CodeProjects = () => {
                         </div>
                         <div className="w-full lg:w-1/2 flex justify-center pl-5">
                             <img
-                               className="w-full h-auto max-w-md"
+                                className="w-full h-auto max-w-md"
                                 src="/images/VendingMachine.png"
                                 width="50%"
                                 height="30%"
@@ -127,7 +130,10 @@ const CodeProjects = () => {
                             <br />
                             <br />
                             <div className="flex">
-                                <a href="">
+                                <a
+                                    href="https://youtu.be/XE6zXk_okRY"
+                                    target="_blank"
+                                >
                                     <button class="bg-red-700 hover:bg-red-900 text-white font-bold py-1 mx-2 px-2 rounded">
                                         View Demo
                                     </button>
