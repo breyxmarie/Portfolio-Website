@@ -26,7 +26,8 @@ const CodeProjects = () => {
                             <br />
                             <br />
                             <br />
-                            &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;Coming Soon
+                            &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;A simple vending
+                            machine made usisng Java.
                             <br />
                             <br />
                             <br />
@@ -236,7 +237,10 @@ const CodeProjects = () => {
                                         View Demo
                                     </button>
                                 </a>
-                                <a href="" target="_blank">
+                                <a
+                                    href="https://github.com/breyxmarie/Dog-Adoption-Application.git"
+                                    target="_blank"
+                                >
                                     <button class="bg-black hover:bg-gray-700 text-white font-bold py-1 mx-0 px-2 rounded">
                                         View Codes
                                     </button>
